@@ -1,0 +1,41 @@
+{{ block title }}Checks{{ endblock }}
+
+{{ block content }}
+
+<head>
+    <link rel="stylesheet" href="{% static 'global/css/style.css' %}"/>
+    <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"> </script>
+</head>
+
+
+<div class = "main-text">
+
+    <p>Player 1 contributes 6 tokens and Player 2 contributes 4 tokens. The value of the multiplier \( \gamma \) is 0.6 </p>
+
+    <br>
+
+    <p> What is the total contribution to the common project (which is equal to your payment)? </p>
+    <p> <strong> 10 tokens </strong> </p>
+
+    <br>
+
+    <p>How many tokens each player receive from the common project? </p>
+    <p> <strong> 6 tokens </strong> </p>
+
+    <br>
+
+    <p>What is the total amount of tokens of player 1 at the end of the game? </p>
+    <p> <strong> 10 tokens </strong> </p>
+
+
+    <br>
+    <p>What is the total amount of tokens of player 2 at the end of the game? </p>
+    <p> <strong> 12 tokens </strong> </p>
+
+<br/> {{ next_button }}
+
+
+</div>
+
+
+{{ endblock }}

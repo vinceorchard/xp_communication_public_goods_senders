@@ -1,0 +1,35 @@
+{{ block title }} Research Participant Declaration {{ endblock }}
+
+{{ block content }}
+
+<head>
+    <link rel="stylesheet" href="{% static 'global/css/style.css' %}"/>
+    <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"> </script>
+</head>
+
+<div class = "main-text">
+
+    <p>
+        By proceeding to the next page, you confirm that you have received the preceding information and declare that you
+        have read and understood it.
+    </p>
+
+    <p>
+        You confirm that you are 18 years of age or older and voluntarily agree to take part in this study.
+        Acknowledging that your data is processed in full compliance with the law, you freely consent to your data being used as described.
+    </p>
+
+    <p>
+        You also declare that you understand your rights and limitations, as well as how to exercise them.
+    </p>
+
+    <p>
+        In the following pages, we provide a detailed description of the game. After the description,
+        you will be asked to complete several control exercises designed to ensure that you understand the game.
+    </p>
+
+    <br/> {{ next_button }}
+
+</div>
+
+{{ endblock }}

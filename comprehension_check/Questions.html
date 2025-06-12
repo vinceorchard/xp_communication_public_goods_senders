@@ -1,0 +1,106 @@
+{{ block title }}Checks{{ endblock }}
+
+{{ block content }}
+
+<head>
+    <link rel="stylesheet" href="{% static 'global/css/style.css' %}"/>
+    <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"> </script>
+</head>
+
+<div class = "main-text">
+
+    <p>Player 1 contributes 6 tokens and Player 2 contributes 4 tokens. The value of the multiplier \( \gamma \) is 0.6. </p>
+
+    <br>
+
+    <p>What is the total contribution to the common project (which is equal to your payment)? </p>
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" name="choice1_totalcontrib">
+      <label class="form-check-label">
+        6 tokens
+      </label>
+    </div>
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" name="choice2_totalcontrib">
+      <label class="form-check-label">
+        10 tokens
+      </label>
+    </div>
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" name="choice3_totalcontrib">
+      <label class="form-check-label">
+        12 tokens
+      </label>
+    </div>
+
+    <br>
+
+    <p>How many tokens each player receive from the common project? </p>
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" name="choice1_gainsproject">
+      <label class="form-check-label">
+        1 token
+      </label>
+    </div>
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" name="choice2_gainsproject">
+      <label class="form-check-label">
+        2 tokens
+      </label>
+    </div>
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" name="choice3_gainsproject">
+      <label class="form-check-label">
+        6 tokens
+      </label>
+    </div>
+
+    <br>
+
+    <p>What is the total amount of tokens of player 1 at the end of the game? </p>
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" name="choice1_totalp1">
+      <label class="form-check-label">
+        4 tokens
+      </label>
+    </div>
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" name="choice2_totalp1">
+      <label class="form-check-label">
+        6 tokens
+      </label>
+    </div>
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" name="choice3_totalp1">
+      <label class="form-check-label">
+        10 tokens
+      </label>
+    </div>
+
+    <br>
+        <p>What is the total amount of tokens of player 2 at the end of the game? </p>
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" name="choice1_totalp2">
+      <label class="form-check-label">
+        5 tokens
+      </label>
+    </div>
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" name="choice2_totalp2">
+      <label class="form-check-label">
+        8 tokens
+      </label>
+    </div>
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" name="choice3_totalp2">
+      <label class="form-check-label">
+        12 tokens
+      </label>
+    </div>
+
+
+<br/> {{ next_button }}
+
+</div>
+
+{{ endblock }}

@@ -1,0 +1,47 @@
+
+
+{{ block title }}Explanation{{ endblock }}
+
+{{ block content }}
+
+
+<head>
+    <link rel="stylesheet" href="{% static 'global/css/style.css' %}"/>
+    <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"> </script>
+</head>
+
+<div class = "main-text">
+
+    <p>
+        The profitability of the common project depends on the value of the multiplier \( \gamma \). <br/>
+        In some rounds, the contributor will not observe the value of this multiplier. This will be when you intervene.
+    </p>
+
+    <p>
+        You will observe the value of the multiplier \( \gamma \). <br>
+        Your aim will be to design a communication plan to encourage contributions to the group project. <br>
+        The two players will not observe the value, but they will observe your communication plan.
+        Your earnings will be equal to the total number of tokens contributed by the two players in the group project.
+         <br>
+    </p>
+
+    <p>
+        The communication plan consists in choosing which message the two players will receive among one of the following messages:
+        <ul>
+            <li> The value of \( \gamma \) is 0.6 </li>
+            <li> The value of \( \gamma \) is 0.9 </li>
+        </ul>
+    </p>
+
+    <p>
+        Now that we've explained you the game played by the two contributors as well as the task that
+        you will have to complete, in the next page, we will present you with hypothetical situations and
+        ask you some questions to ensure that you have fully understood these instructions. <br/>
+    </p>
+
+    {{ next_button }}
+
+</div>
+
+
+{{ endblock }}

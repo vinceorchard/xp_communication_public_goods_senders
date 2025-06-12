@@ -1,0 +1,37 @@
+{{ block title }} Welcome to our experiment {{ endblock }}
+
+{{ block content }}
+
+<head>
+    <link rel="stylesheet" href="{% static 'global/css/style.css' %}"/>
+    <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"> </script>
+</head>
+
+<div class = "main-text">
+
+    <p>
+        This experiment will take approximately 5 minutes to complete. </p>
+    <p> As part of this experiment, we will hire two other individuals on prolific on top of you.
+        These two players will play a game. However, they will not observe one parameter that will affect their income.
+        You will observe this parameter. Your role will be to communicate about the value of this parameter given your own
+        objectives.
+    </p>
+    <p> At the end of the game, you will receive a show-up fee of $X. On top of this show up fee, you can also earn a bonus payment of at least X$
+        and up to $X depending on the outcome of the game. </p>
+    <p>
+        Instead of using dollars in the game, we will use tokens. All your earnings from the game will be calculated in tokens. At the end of the game,
+        the total number of tokens you have earned will be converted to dollars and paid to your
+        Prolific account at the following rate:
+        $$ 1\text{ token}  = $X $$ </p>
+    <p>
+    <p>
+        To process the payment, we will collect your Prolific ID at the end of the experiment.
+    </p>
+
+<!-- Should we add here that we will screen out without paying people who do not pass the tests? -->
+
+    <br/> {{ next_button }}
+
+</div>
+
+{{ endblock }}

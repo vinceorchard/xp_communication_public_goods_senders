@@ -1,0 +1,71 @@
+/* Elegant oTree Theme */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+
+}
+
+.container {
+    max-width: 1400px;
+    margin: 20px auto 10px auto; /* top right bottom left */
+    background: white;
+    padding: 0px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.otree-title {
+    background-color: #2c3e50; /* blue background */
+    color: white;              /* white text */
+    padding: 10px 20px;        /* optional padding for better spacing */
+    border-radius: 10px 10px 0 0;        /* optional: adds rounded corners */
+}
+
+
+.main-text {
+    width: 100%; /* add this */
+    padding: 0px 20px;
+    }
+
+.btn-primary {
+    background-color: #2c3e50;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #2980b9;
+}
+
+
+summary {
+        font-weight: bold;
+        cursor: pointer;
+        outline: none;
+    }
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+summary::after {
+  transition: transform 0.2s;
+}
+
+details {
+      width: auto;
+      margin: auto;
+      padding: 1rem;
+    }
+
+details[open] summary::after {
+  transform: rotate(180deg);
+}

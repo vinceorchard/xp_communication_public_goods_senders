@@ -1,0 +1,22 @@
+{{ block title }} Next step{{ endblock }}
+{{ block content }}
+
+<head>
+    <link rel="stylesheet" href="{% static 'global/css/style.css' %}"/>
+    <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"> </script>
+</head>
+
+<div class = "main-text">
+
+    <p>
+        To proceed with your payment, we also need your prolific ID. Please enter it in the field below.
+    </p>
+
+            {{ formfield 'prolific_id'}}
+
+    <br>     {{ next_button }}
+
+</div>
+
+{{ endblock }}
+

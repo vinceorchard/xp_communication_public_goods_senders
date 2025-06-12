@@ -1,0 +1,31 @@
+
+
+{{ block title }}Explanation{{ endblock }}
+
+{{ block content }}
+
+
+<head>
+    <link rel="stylesheet" href="{% static 'global/css/style.css' %}"/>
+    <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"> </script>
+</head>
+
+<div class = "main-text">
+
+
+    <p>
+        We hired you to design a communication plan as part of a game. On top of you, we will also hire two additional players who will observe
+        the communication plan you will design while playing the game.
+    </p>
+
+    <p>
+        For you to understand what will be your role in this game and how to design your communication plan, we will first
+        introduce you the game played by the two other players then explain to you how to design your communication plan.
+    </p>
+
+    {{ next_button }}
+
+</div>
+
+
+{{ endblock }}
