@@ -7,7 +7,7 @@ SESSION_CONFIGS = [
                              "comprehension_check",
                              'communication_structured_com',
                              "waiting_page_for_results"],
-             num_demo_participants = 1
+             num_demo_participants = 10
             ),
     dict(name = "structured_com_NL",
                  app_sequence = ["landing_pages",
@@ -15,7 +15,7 @@ SESSION_CONFIGS = [
                              "comprehension_check",
                              'communication_structured_com_NL',
                              "waiting_page_for_results"],
-                 num_demo_participants = 1
+                 num_demo_participants = 10
                 )
     # dict(
     #     name='public_goods',
