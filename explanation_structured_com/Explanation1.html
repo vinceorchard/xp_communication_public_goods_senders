@@ -14,13 +14,45 @@
 
 
     <p>
-        We hired you to design a communication plan as part of a game. On top of you, we will also hire two additional players who will observe
-        the communication plan you will design while playing the game.
+        Your aim is to design a communication plan that will be shared with pairs of other participants.
+        <!--We hired you to design a communication plan as part of a game. On top of you, we will also hire two additional players who will observe
+        the communication plan you will design while playing the game.-->
     </p>
 
     <p>
-        For you to understand what will be your role in this game and how to design your communication plan, we will first
-        introduce you the game played by the two other players then explain to you how to design your communication plan.
+        These participants will receive a monetary endowment of 10 tokens. <br>
+        They will need to decide how many of the 10 tokens to contribute to a <b>shared account</b>.
+        Any tokens not contributed to the shared account will automatically belong to their <b>private account</b>.
+        Once allocation decisions are made, both participants will receive sum of the contributions to the shared account
+        <b>multiplied by a return factor</b> on top of the tokens they kept in their private account.
+    </p>
+
+    <details>
+            <summary> Click here for more detailed information the other participants' payoffs </summary>
+            <div  class = "main-text">
+                <br>
+                Player 1's earning will be the sum of:
+                <ul>
+                    <li> the tokens you kept in their private account </li>
+                    <li> the total of Player 1 and Player 2’s contributions to the shared account multiplied by the return factor </li>
+                </ul>
+                In other words, Player 1's earnings will be calculated as follows:
+                $$\text{P1's earnings} = (10\ - \text{ P1's contribution to the shared account })\ +\ \text{return factor}\ * \text{ total contribution to the shared account} $$
+                with \( \text{ total contribution to the shared account }  = \text{P1's contribution to the shared account} +
+                \text{ P2's contribution to the shared account}\)
+            </div>
+    </details>
+
+    <p>
+        Note that if both players contributes equally to the shared account, they will both earn more tokens than if they both
+        contribute nothing. It is therefore mutually beneficial for every participant to contribute more to the shared account.<br>
+        With a return factor smaller than 1, if one participant does not contribute to the shared account while the other does, they will earn even more.
+        However, they will harm the other player who will lose more than what they gain.<br>
+        With a return factor greater than 1, it is always beneficial to allocate every token to the shared account.
+    </p>
+
+    <p>
+        Importantly, both players will make their contribution decision without observing the value of the return factor. <b>This is where you will intervene.</b>
     </p>
 
     {{ next_button }}

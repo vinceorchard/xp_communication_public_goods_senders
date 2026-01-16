@@ -33,8 +33,8 @@ class Explanation1(Page):
 class Explanation2(Page):
     pass
 
-class Explanation3(Page):
-    pass
+# class Explanation3(Page):
+#     pass
 
 
-page_sequence = [Explanation1, Explanation2, Explanation3]
+page_sequence = [Explanation1, Explanation2] #,Explanation3

@@ -13,60 +13,34 @@
 <div class = "main-text">
 
     <p>
-        The game played by the two other players is divided into two phases, each of which is further divided into several rounds.
-    </p>
-
-    <p> At the start of each round, the players will be grouped in pair and receive an endowment of 10 tokens. <br>
-        They will need to decide how many of these 10 tokens to contribute to a group project and how many
-        to keep for themselves. <br>
-        Any token that is not invested in the common project automatically belongs to the players and earns them one
-        token at the end of the round.
+        The computer will randomly choose the value of the return factor which can be <b>either 0.6 or 1.1 with equal probability</b>.<br>
+        The selected value will <b>not be observed by the two players</b>. However, they will know the value is selected by the computer.
     </p>
 
     <p>
-        The contributions of the two players to the common project will be summed to determine their group's total contribution.
-        On top of the tokens they kept for themselves, they will receive the group's total contribution multiplied by a number \( \gamma \). <br/>
-        The value of \( \gamma \) will be either 0.6 or 0.9.
+        You will observe the value of the return factor. <br>
+        Your will have to design a communication plan that will be shown to the other two participants when they
+        will make their allocation decision. <br>
+        Your earnings will equal the <b>total number of tokens that Player 1 and Player 2 allocate to the shared account</b>.
     </p>
 
-<details>
-        <summary> Click here for more detailed information about payoffs </summary>
-        <div  class = "main-text">
-            Your total payoff after each round will be the sum of:
-            <ul>
-                <li> the fraction of your endowment that you have kept for yourself </li>
-                <li> the total group project contributions multiplied by the factor \( \gamma \) </li>
-            </ul>
-            In other words, your earnings will be calculated as follows:
-            $$\text{earnings} = (10\ - \text{ your contribution to the group project })\ +\ \gamma\ * \text{ total contribution to the group project} $$
-        </div>
-</details>
-
-
-    <p> Examples:
+    <p>
+        To communicate with Player 1 and Player 2, for each value of the return factor, you will design
+        a communication plan that consists in <b>choosing which message to send from the options below</b>:
         <ul>
-            <li> Imagine that the two players contribute their full endowment (i.e., 10 tokens each) and that the value of the multiplier
-                \( \gamma \) is 0.6. The total contribution to the group project is 20 tokens. They would receive
-                \(0.6 * 20 = 12 \text{ tokens}\) from the group project. Hence, their total payoff would be \((10-10) + 12 = 12\text{ tokens}\). </li>
-            <li> Imagine that the two players contribute nothing (i.e. 0 token) and that the value of the multiplier \( \gamma \) is 0.6.
-                The total contribution to the group project in the group is 0 token. They would receive
-                \(0.6 * 20 = 12 \text{ tokens}\) from the group project. Hence, their total payoff would be \((10- 0) + 0 = 10 \text{ tokens} \).
-                </li>
+            <li> The return factor is 0.6 </li>
+            <li> The return factor is 1.1 </li>
         </ul>
     </p>
 
-<!-- Need to discuss this last paragraph since we are somehow priming the players to be cooperative -->
-
     <p>
-        As you can see from the examples above, if everyone contributes to the group project, they will all earn more tokens than if everyone
-        contributes nothing and keeps all their tokens to themselves, even with a low value of \(\gamma\). It is therefore beneficial for
-        everyone to contribute more to the group project. <br/>
-        Neverthless, if the one of the two player contributes to the group project and the other keep all their tokens to themselves,
-        then they earn even more, but this will harm the other player.
+        Now that we have explained the game played by the two other players, your role and how you will be paid,
+        the next page will present hypothetical situations and ask questions to check your understanding of the instructions. <br/>
     </p>
 
-<br/> {{ next_button }}
+    <br/>
 
+    {{ next_button }}
 
 </div>
 
